@@ -6,7 +6,7 @@ let Color = ["red", "blue", "green", "yellow"];
 let level = 0;
 let started = false;
 highscore=1;
-document.addEventListener("keypress", function () {
+document.addEventListener("click", function () {
     if (started == false) {
         console.log("Game started");
         started = true;
